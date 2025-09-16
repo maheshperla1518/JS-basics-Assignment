@@ -92,11 +92,19 @@ else{
 
 // 3.Write a JavaScript function that takes a string as input and returns "Truthy" if the string is not empty, "Falsy" otherwise.
 
-if(String){
-    console.log("Truthy");
+let user = ""
+if(typeof(user) === "string" && user.length > 0){
+    console.log("Truethy")
+}else{
+    console.log("Falsy")
 }
-else{
-    console.log("Falsy");
-}
+
+
+// if(user){
+//     console.log("Truthy");
+// }
+// else{
+//     console.log("Falsy");
+// }
 
 
